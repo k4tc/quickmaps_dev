@@ -1,0 +1,56 @@
+#myimage2 {
+    background: transparent url('map12.jpg');
+    width: 5000px;
+    height: 5000px;
+    clip-path: url(#mask);
+    position: absolute;
+    top: 480px;
+    border: 1px solid;
+}
+
+
+
+
+#messageBox {
+
+    max-width: 50%;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    z-index: 2;
+    border: 1px solid;
+}
+
+/* 
+#lowerHalf {
+    
+        max-width: 50%;
+        width: 100%;
+        position: fixed;
+        top: 380px;
+        right: 40px;
+        z-index: 2;
+        border: 3px solid;
+    } */
+/* 
+#mapid { height: 80px;
+         top: 480px; 
+        z-index: 20
+    } */
+#mask {
+    position: absolute;
+    float: left;
+    left: 650px;
+    width: 600px;
+    border: 3px solid;
+}
+
+#myimage2 {
+    position: absolute;
+    float: left;
+    /* width: 650px;
+        height: 600px; */
+    top: 70px;
+    border: 3px solid;
+}
