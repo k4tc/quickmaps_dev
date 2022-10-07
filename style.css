@@ -1,3 +1,13 @@
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+#myImg {
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
 #myimage2 {
     background: transparent url('map12.jpg');
     width: 5000px;
@@ -8,11 +18,16 @@
     border: 1px solid;
 }
 
-
-
+#myimage2 {
+    position: absolute;
+    float: left;
+    /* width: 650px;
+        height: 600px; */
+    top: 70px;
+    border: 3px solid;
+}
 
 #messageBox {
-
     max-width: 50%;
     width: 100%;
     position: fixed;
@@ -43,14 +58,5 @@
     float: left;
     left: 650px;
     width: 600px;
-    border: 3px solid;
-}
-
-#myimage2 {
-    position: absolute;
-    float: left;
-    /* width: 650px;
-        height: 600px; */
-    top: 70px;
     border: 3px solid;
 }
